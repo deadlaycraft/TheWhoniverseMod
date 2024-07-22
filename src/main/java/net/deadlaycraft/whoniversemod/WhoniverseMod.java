@@ -3,6 +3,8 @@ package net.deadlaycraft.whoniversemod;
 import com.mojang.logging.LogUtils;
 import net.deadlaycraft.whoniversemod.item.ModItems;
 import net.minecraft.client.Minecraft;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -43,7 +45,10 @@ public class WhoniverseMod {
     private void commonSetup(final FMLCommonSetupEvent event) {
     }
     // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {   // if the player is in the ingredients tab, accept "SAFFRITE" onto it
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.SAFFRITE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

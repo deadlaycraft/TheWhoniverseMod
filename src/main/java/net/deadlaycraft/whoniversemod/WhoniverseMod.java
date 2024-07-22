@@ -1,6 +1,7 @@
 package net.deadlaycraft.whoniversemod;
 
 import com.mojang.logging.LogUtils;
+import net.deadlaycraft.whoniversemod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -16,6 +17,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
+// THIS FILE RUNS ON STARTUP TO LOAD UP THE MOD //
+
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(WhoniverseMod.MOD_ID)
 public class WhoniverseMod {
@@ -27,6 +30,8 @@ public class WhoniverseMod {
     public WhoniverseMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus); // passing through the EventBus so the game recognises new items on startup
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);

@@ -13,6 +13,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> SAFFRITE = ITEMS.register("saffrite", // implementing the deferred creation of a new item as a FIELD
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SAFFRITE_INFUSED_REDSTONE = ITEMS.register("saffrite_infused_redstone",
+            () -> new Item(new Item.Properties()));
 
     // "RegistryObject" is a wrapper class
 

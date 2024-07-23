@@ -49,6 +49,9 @@ public class WhoniverseMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SAFFRITE);
         }
+        if(event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+            event.accept(ModItems.SAFFRITE_INFUSED_REDSTONE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

@@ -20,6 +20,11 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> REDRITE_WIRE = registerBlock("redrite_wire",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.REDSTONE_WIRE))); // a field which assigns itself a value which is the result of a method
+    public static final RegistryObject<Block> REDRITE_BLOCK = registerBlock("redrite_block",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.REDSTONE_BLOCK)));
+    public static final RegistryObject<Block> SAFFRITE_BLOCK = registerBlock("saffrite_block",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block); // registering the

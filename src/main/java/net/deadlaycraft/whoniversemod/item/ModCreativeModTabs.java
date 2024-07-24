@@ -19,7 +19,10 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.whoniverse_tab")) //
                     .displayItems((itemDisplayParameters, pOutput) -> {
                         pOutput.accept(ModItems.SAFFRITE.get());
+
                         pOutput.accept(ModBlocks.REDRITE_WIRE.get());
+                        pOutput.accept(ModBlocks.REDRITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.SAFFRITE_BLOCK.get());
                     })
                     .build());
 

@@ -55,7 +55,7 @@ public class WhoniverseMod {
             event.accept(ModItems.SAFFRITE);
         }
         if(event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
-            event.accept(ModItems.SAFFRITE_INFUSED_REDSTONE);
+            event.accept(ModBlocks.REDRITE_WIRE);
         }
     }
 

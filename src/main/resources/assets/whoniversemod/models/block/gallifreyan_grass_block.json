@@ -1,0 +1,7 @@
+{   "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "bottom": "whoniversemod:block/gallifreyan_soil",
+        "top": "whoniversemod:block/gallifreyan_grass_block_top",
+        "side": "whoniversemod:block/gallifreyan_grass_block_side"
+    }
+}

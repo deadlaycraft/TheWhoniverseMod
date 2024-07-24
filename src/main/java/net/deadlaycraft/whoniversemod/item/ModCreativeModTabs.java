@@ -24,6 +24,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.REDRITE_BLOCK.get());
                         pOutput.accept(ModBlocks.SAFFRITE_BLOCK.get());
                         pOutput.accept(ModBlocks.SOLITITE.get());
+                        pOutput.accept(ModBlocks.GALLIFREYAN_SOIL.get());
+                        pOutput.accept(ModBlocks.GALLIFREYAN_GRASS_BLOCK.get());
                     })
                     .build());
 

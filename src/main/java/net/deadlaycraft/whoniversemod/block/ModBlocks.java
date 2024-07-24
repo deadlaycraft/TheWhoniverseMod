@@ -26,6 +26,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> SOLITITE = registerBlock("solitite",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)));
+    public static final RegistryObject<Block> GALLIFREYAN_SOIL = registerBlock("gallifreyan_soil",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DIRT)));
+    public static final RegistryObject<Block> GALLIFREYAN_GRASS_BLOCK = registerBlock("gallifreyan_grass_block",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block); // registering the

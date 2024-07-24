@@ -1,6 +1,8 @@
 package net.deadlaycraft.whoniversemod;
 
 import com.mojang.logging.LogUtils;
+import net.deadlaycraft.whoniversemod.block.ModBlocks;
+import net.deadlaycraft.whoniversemod.item.ModCreativeModTabs;
 import net.deadlaycraft.whoniversemod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTab;
@@ -34,6 +36,8 @@ public class WhoniverseMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus); // passing through the EventBus so the game recognises new items on startup
+        ModBlocks.register(modEventBus);
+        ModCreativeModTabs.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
@@ -41,6 +45,7 @@ public class WhoniverseMod {
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
     }
+
 
     private void commonSetup(final FMLCommonSetupEvent event) {
     }

@@ -1,3 +1,7 @@
 {
-  "item.whoniversemod.saffrite": "Saffrite Dust"
+  "item.whoniversemod.saffrite": "Saffrite Dust",
+
+  "block.whoniversemod.redrite_wire": "Redrite Dust",
+
+  "creativetab.whoniverse_tab": "Whoniverse Mod Tab"
 }

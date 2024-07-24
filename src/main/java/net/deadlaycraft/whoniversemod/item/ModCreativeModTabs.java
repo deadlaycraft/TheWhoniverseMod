@@ -23,6 +23,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.REDRITE_WIRE.get());
                         pOutput.accept(ModBlocks.REDRITE_BLOCK.get());
                         pOutput.accept(ModBlocks.SAFFRITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.SOLITITE.get());
                     })
                     .build());
 

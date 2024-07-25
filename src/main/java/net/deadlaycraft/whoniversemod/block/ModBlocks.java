@@ -2,10 +2,13 @@ package net.deadlaycraft.whoniversemod.block;
 
 import net.deadlaycraft.whoniversemod.WhoniverseMod;
 import net.deadlaycraft.whoniversemod.item.ModItems;
+import net.minecraft.core.Direction;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -30,6 +33,11 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DIRT)));
     public static final RegistryObject<Block> GALLIFREYAN_GRASS_BLOCK = registerBlock("gallifreyan_grass_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> STYGIAN_OAK_LOG = registerBlock("stygian_oak_log",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_PLANKS)));
+    public static final RegistryObject<Block> STYGIAN_LEAVES = registerBlock("stygian_leaves",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_LEAVES)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block); // registering the

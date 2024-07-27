@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/leaves",
   "textures": {
-    "all": "whoniversemod:block/stygian_leaves"
+    "all": "whoniversemod:block/radiant_leaves"
   }
 }

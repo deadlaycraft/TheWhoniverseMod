@@ -42,9 +42,9 @@ public class ModBlocks extends Blocks{
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DIRT)));
     public static final RegistryObject<Block> GALLIFREYAN_GRASS_BLOCK = registerBlock("gallifreyan_grass_block",
             () -> new GallifreyanGrassBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
-    public static final RegistryObject<Block> STYGIAN_OAK_LOG = registerBlock("stygian_oak_log",
+    public static final RegistryObject<Block> RADIANT_OAK_LOG = registerBlock("radiant_oak_log",
                 () -> log(MapColor.COLOR_BROWN, MapColor.COLOR_BROWN));
-    public static final RegistryObject<Block> STYGIAN_LEAVES = registerBlock("stygian_leaves",
+    public static final RegistryObject<Block> RADIANT_LEAVES = registerBlock("radiant_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_LEAVES)));
 
 

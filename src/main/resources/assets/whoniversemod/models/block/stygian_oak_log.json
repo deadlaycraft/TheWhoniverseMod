@@ -1,7 +1,0 @@
-{
-    "parent": "minecraft:block/cube_column",
-    "textures": {
-        "end": "whoniversemod:block/stygian_oak_log_top",
-        "side": "whoniversemod:block/stygian_oak_log"
-    }
-}

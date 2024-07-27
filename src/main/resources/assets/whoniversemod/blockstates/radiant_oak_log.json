@@ -1,7 +1,17 @@
+
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "whoniversemod:block/radiant_oak_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "whoniversemod:block/radiant_oak_log"
+    },
+    "axis=z": {
+      "model": "whoniversemod:block/radiant_oak_log_horizontal",
+      "x": 90
     }
   }
 }

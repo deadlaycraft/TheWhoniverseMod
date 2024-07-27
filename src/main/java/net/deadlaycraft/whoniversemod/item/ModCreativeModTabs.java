@@ -28,6 +28,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.GALLIFREYAN_GRASS_BLOCK.get());
                         pOutput.accept(ModBlocks.RADIANT_OAK_LOG.get());
                         pOutput.accept(ModBlocks.RADIANT_LEAVES.get());
+                        pOutput.accept(ModBlocks.RADIANT_OAK_SAPLING.get());
                     })
                     .build());
 

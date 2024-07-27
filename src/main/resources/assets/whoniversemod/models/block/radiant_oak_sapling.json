@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "whoniversemod:block/radiant_oak_sapling"
+  }
+}

@@ -6,6 +6,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.grower.TreeGrower;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
@@ -49,6 +50,9 @@ public class ModBlocks extends Blocks{
                 () -> log(MapColor.COLOR_BROWN, MapColor.COLOR_BROWN));
     public static final RegistryObject<Block> RADIANT_LEAVES = registerBlock("radiant_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_LEAVES)));
+    public static final RegistryObject<Block> RADIANT_OAK_SAPLING = registerBlock("radiant_oak_sapling",
+            () -> new SaplingBlock(TreeGrower.CHERRY,BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

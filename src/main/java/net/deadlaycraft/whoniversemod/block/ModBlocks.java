@@ -52,6 +52,8 @@ public class ModBlocks extends Blocks{
             () -> new LeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_LEAVES)));
     public static final RegistryObject<Block> RADIANT_OAK_SAPLING = registerBlock("radiant_oak_sapling",
             () -> new SaplingBlock(TreeGrower.CHERRY,BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> SAFFRITE_ORE = registerBlock("saffrite_ore",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)));
 
 
 

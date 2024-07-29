@@ -39,7 +39,7 @@ public class ModBlocks extends Blocks{
     public static final RegistryObject<Block> REDRITE_BLOCK = registerBlock("redrite_block",
             () -> new PoweredBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.REDSTONE_BLOCK)));
     public static final RegistryObject<Block> SAFFRITE_BLOCK = registerBlock("saffrite_block",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+            () -> new PoweredBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.REDSTONE_BLOCK)));
     public static final RegistryObject<Block> SOLITITE = registerBlock("solitite",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)));
     public static final RegistryObject<Block> GALLIFREYAN_SOIL = registerBlock("gallifreyan_soil",

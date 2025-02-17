@@ -1,0 +1,38 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "effects": {
+    "sky_color": 16760976,
+    "fog_color": 16740669,
+    "water_color": 16746025,
+    "water_fog_color": 16746025,
+    "grass_color": 14685696,
+    "foliage_color": 15134975
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis",
+      "minecraft:ore_copper"
+    ],
+    [],
+    [
+      "minecraft:patch_grass_plain"
+    ],
+    []
+  ],
+  "has_precipitation": true
+}

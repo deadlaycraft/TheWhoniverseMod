@@ -11,8 +11,6 @@ import net.minecraft.world.level.block.SnowLayerBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.lighting.LightEngine;
 
-import java.util.Iterator;
-
 public class GallifreyanGrassBlock extends GrassBlock {
 
 

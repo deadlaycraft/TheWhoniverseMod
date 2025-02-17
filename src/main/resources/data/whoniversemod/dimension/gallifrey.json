@@ -1,0 +1,255 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "whoniversemod:gallifrey",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "whoniversemod:gallifrey_forest",
+          "parameters": {
+            "temperature": [
+              -0.45,
+              0.1
+            ],
+            "humidity": [
+              0.2,
+              0.6
+            ],
+            "continentalness": [
+              0.8,
+              1.5
+            ],
+            "erosion": [
+              0.275,
+              0.3225
+            ],
+            "weirdness": [
+              -1,
+              -0.9333
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "whoniversemod:gallifrey_plains",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -0.1,
+              0.1
+            ],
+            "continentalness": [
+              0.8,
+              1.5
+            ],
+            "erosion": [
+              0.375,
+              0.4225
+            ],
+            "weirdness": [
+              -1,
+              -0.92
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "whoniversemod:gallifrey_mountains_peaks",
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.6
+            ],
+            "humidity": [
+              -0.9,
+              -0.35
+            ],
+            "continentalness": [
+              0.9,
+              1.6
+            ],
+            "erosion": [
+              -1,
+              -0.7799
+            ],
+            "weirdness": [
+              -1,
+              -0.7666
+            ],
+            "depth": 0.8,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "whoniversemod:gallifrey_mountains_peaks",
+          "parameters": {
+            "temperature": [
+              -0.4,
+              0
+            ],
+            "humidity": [
+              -0.8,
+              -0.35
+            ],
+            "continentalness": [
+              0.9,
+              1.6
+            ],
+            "erosion": [
+              -1,
+              -0.7799
+            ],
+            "weirdness": [
+              -1,
+              -0.7666
+            ],
+            "depth": 0.8,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "whoniversemod:gallifrey_mountains_peaks",
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.6
+            ],
+            "humidity": [
+              0.2,
+              0.6
+            ],
+            "continentalness": [
+              0.9,
+              1.6
+            ],
+            "erosion": [
+              -1,
+              -0.7799
+            ],
+            "weirdness": [
+              -1,
+              -0.7666
+            ],
+            "depth": 0.8,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "whoniversemod:gallifrey_mountains_peaks",
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.6
+            ],
+            "humidity": [
+              -0.9,
+              -0.35
+            ],
+            "continentalness": [
+              0.9,
+              1.6
+            ],
+            "erosion": [
+              -1,
+              -0.7799
+            ],
+            "weirdness": [
+              -0.7666,
+              -0.5666
+            ],
+            "depth": 0.8,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "whoniversemod:gallifrey_mountains_peaks",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -0.1,
+              0.1
+            ],
+            "continentalness": [
+              0.9,
+              1.6
+            ],
+            "erosion": [
+              -1,
+              -0.7799
+            ],
+            "weirdness": [
+              -1,
+              -0.7666
+            ],
+            "depth": 0.8,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "whoniversemod:gallifrey_snow",
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.6
+            ],
+            "humidity": [
+              -1,
+              -0.35
+            ],
+            "continentalness": [
+              0.8,
+              1.5
+            ],
+            "erosion": [
+              0.275,
+              0.425
+            ],
+            "weirdness": [
+              -1,
+              -0.9333
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "whoniversemod:gallifrey_wastes",
+          "parameters": {
+            "temperature": [
+              0.4,
+              1
+            ],
+            "humidity": [
+              -0.8,
+              -0.35
+            ],
+            "continentalness": [
+              0.8,
+              1.5
+            ],
+            "erosion": [
+              0.375,
+              0.4225
+            ],
+            "weirdness": [
+              -1,
+              -0.9333
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

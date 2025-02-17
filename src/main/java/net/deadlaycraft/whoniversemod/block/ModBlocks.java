@@ -3,7 +3,6 @@ package net.deadlaycraft.whoniversemod.block;
 import net.deadlaycraft.whoniversemod.WhoniverseMod;
 import net.deadlaycraft.whoniversemod.item.ModItems;
 import net.minecraft.core.Direction;
-import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.grower.TreeGrower;
@@ -11,14 +10,12 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
-import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraft.world.item.BlockItem;
 
-import java.util.Iterator;
 import java.util.function.Supplier;
 
 public class ModBlocks extends Blocks{
@@ -58,7 +55,6 @@ public class ModBlocks extends Blocks{
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)));
 
 
-
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block); // registering the
         registerBlockItem(name, toReturn);
@@ -72,8 +68,7 @@ public class ModBlocks extends Blocks{
 
 
 
-    public static void register(IEventBus eventBus) {
-        BLOCKS.register(eventBus);
+    public static void register(IEventBus eventBus) {BLOCKS.register(eventBus);
     }
 
 }

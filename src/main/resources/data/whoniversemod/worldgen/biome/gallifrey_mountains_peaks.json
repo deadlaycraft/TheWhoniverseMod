@@ -4,13 +4,12 @@
   "temperature_modifier": "none",
   "creature_spawn_probability": 0.5,
   "effects": {
-    "sky_color": 16760976,
-    "fog_color": 16740669,
-    "water_color": 16746025,
-    "water_fog_color": 16746025,
-    "grass_color": 14685696,
-    "foliage_color": 15134975,
-    "grass_color_modifier": "none"
+    "sky_color": 13514524,
+    "fog_color": 16556839,
+    "water_color": 16754037,
+    "water_fog_color": 12677914,
+    "grass_color": 14680064,
+    "foliage_color": 15134975
   },
   "spawners": {},
   "spawn_costs": {},
@@ -25,7 +24,6 @@
     [],
     [],
     [
-
       "minecraft:ore_gold",
       "minecraft:ore_redstone",
       "minecraft:ore_diamond",

@@ -2,11 +2,11 @@
   "temperature": 0.8,
   "downfall": 0.4,
   "effects": {
-    "sky_color": 16760976,
-    "fog_color": 16740669,
-    "water_color": 16746025,
-    "water_fog_color": 16746025,
-    "grass_color": 14685696,
+    "sky_color": 13773839,
+    "fog_color": 16556839,
+    "water_color": 16754037,
+    "water_fog_color": 12677914,
+    "grass_color": 14680064,
     "foliage_color": 15134975
   },
   "spawners": {},
@@ -26,11 +26,14 @@
       "minecraft:ore_redstone",
       "minecraft:ore_diamond",
       "minecraft:ore_lapis",
-      "minecraft:ore_copper"
+      "minecraft:ore_copper",
+      "whoniversemod:saffrite_ore_lower",
+      "whoniversemod:saffrite_ore_upper"
     ],
     [],
     [
-      "minecraft:patch_grass_plain"
+      "minecraft:patch_grass_plain",
+      "whoniversemod:trees_gallifrey_forest"
     ],
     []
   ],

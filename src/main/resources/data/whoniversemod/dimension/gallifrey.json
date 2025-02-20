@@ -26,7 +26,7 @@
               1
             ],
             "weirdness": [
-              -0.5,
+              -1,
               1
             ],
             "depth": 0,
@@ -53,7 +53,7 @@
               1
             ],
             "weirdness": [
-              -0.5,
+              -1,
               1
             ],
             "depth": 0,
@@ -80,7 +80,7 @@
               1
             ],
             "weirdness": [
-              -0.5,
+              -1,
               1
             ],
             "depth": 0,
@@ -100,14 +100,14 @@
             ],
             "continentalness": [
               -0.2,
-              -0.17
+              -0.15
             ],
             "erosion": [
-              -0.1,
+              -0.2,
               1
             ],
             "weirdness": [
-              -0.5,
+              -1,
               1
             ],
             "depth": 0,
@@ -127,14 +127,14 @@
             ],
             "continentalness": [
               -0.2,
-              -0.17
+              -0.15
             ],
             "erosion": [
-              -0.1,
+              -0.2,
               1
             ],
             "weirdness": [
-              -0.5,
+              -1,
               1
             ],
             "depth": 0,
@@ -154,14 +154,14 @@
             ],
             "continentalness": [
               -0.2,
-              -0.17
+              -0.15
             ],
             "erosion": [
-              -0.1,
+              -0.2,
               1
             ],
             "weirdness": [
-              -0.5,
+              -1,
               1
             ],
             "depth": 0,
@@ -181,15 +181,15 @@
             ],
             "continentalness": [
               -0.2,
-              -0.17
+              -0.15
             ],
             "erosion": [
-              -0.5,
-              -0.1
+              -1,
+              -0.2
             ],
             "weirdness": [
-              0,
-              1
+              -0.5,
+              0.5
             ],
             "depth": 0,
             "offset": 0
@@ -208,15 +208,15 @@
             ],
             "continentalness": [
               -0.2,
-              -0.17
+              -0.15
             ],
             "erosion": [
-              -0.5,
-              -0.1
+              -1,
+              -0.2
             ],
             "weirdness": [
-              0,
-              1
+              -0.5,
+              0.5
             ],
             "depth": 0,
             "offset": 0
@@ -235,15 +235,15 @@
             ],
             "continentalness": [
               -0.2,
-              -0.17
+              -0.15
             ],
             "erosion": [
-              -0.5,
-              -0.1
+              -1,
+              -0.2
             ],
             "weirdness": [
-              0,
-              1
+              -0.5,
+              0.5
             ],
             "depth": 0,
             "offset": 0
@@ -265,12 +265,12 @@
               0.5
             ],
             "erosion": [
-              -0.6,
+              -0.2,
               1
             ],
             "weirdness": [
-              -0.2,
-              0.2
+              -1,
+              1
             ],
             "depth": 0,
             "offset": 0
@@ -284,20 +284,20 @@
               0.5
             ],
             "humidity": [
-              0,
+              -0.2,
               1
             ],
             "continentalness": [
-              -0.2,
+              -0.1,
               0.5
             ],
             "erosion": [
-              -0.6,
+              -0.2,
               1
             ],
             "weirdness": [
-              -0.3,
-              0.2
+              -1,
+              1
             ],
             "depth": 0,
             "offset": 0
@@ -312,19 +312,19 @@
             ],
             "humidity": [
               -1,
-              0
+              -0.2
             ],
             "continentalness": [
               -0.1,
               0.5
             ],
             "erosion": [
-              -0.6,
+              -0.2,
               1
             ],
             "weirdness": [
-              -0.3,
-              0.2
+              -1,
+              1
             ],
             "depth": 0,
             "offset": 0
@@ -343,15 +343,15 @@
             ],
             "continentalness": [
               -0.1,
-              0.3
+              0.5
             ],
             "erosion": [
-              -0.6,
+              -0.2,
               1
             ],
             "weirdness": [
-              -0.3,
-              0.2
+              -1,
+              1
             ],
             "depth": 0,
             "offset": 0
@@ -369,7 +369,7 @@
               1
             ],
             "continentalness": [
-              0.5,
+              -0.1,
               1
             ],
             "erosion": [
@@ -396,7 +396,7 @@
               1
             ],
             "continentalness": [
-              0.5,
+              -0.1,
               1
             ],
             "erosion": [
@@ -423,7 +423,7 @@
               1
             ],
             "continentalness": [
-              0.5,
+              -0.1,
               1
             ],
             "erosion": [
@@ -450,7 +450,7 @@
               1
             ],
             "continentalness": [
-              0.5,
+              -0.1,
               1
             ],
             "erosion": [
@@ -477,7 +477,7 @@
               1
             ],
             "continentalness": [
-              0.5,
+              -0.1,
               1
             ],
             "erosion": [
@@ -504,7 +504,7 @@
               1
             ],
             "continentalness": [
-              0.5,
+              -0.1,
               1
             ],
             "erosion": [
@@ -531,7 +531,7 @@
               1
             ],
             "continentalness": [
-              0.5,
+              -0.1,
               1
             ],
             "erosion": [
@@ -558,7 +558,7 @@
               1
             ],
             "continentalness": [
-              0.5,
+              -0.1,
               1
             ],
             "erosion": [
@@ -585,7 +585,7 @@
               1
             ],
             "continentalness": [
-              0.5,
+              -0.1,
               1
             ],
             "erosion": [
@@ -612,7 +612,7 @@
               1
             ],
             "continentalness": [
-              0.5,
+              -0.1,
               1
             ],
             "erosion": [
@@ -639,7 +639,7 @@
               1
             ],
             "continentalness": [
-              0.5,
+              -0.1,
               1
             ],
             "erosion": [
@@ -666,7 +666,7 @@
               1
             ],
             "continentalness": [
-              0.5,
+              -0.1,
               1
             ],
             "erosion": [
@@ -682,7 +682,7 @@
           }
         },
         {
-          "biome": "whoniversemod:gallifrey_plains",
+          "biome": "whoniversemod:gallifrey_snow",
           "parameters": {
             "temperature": [
               -1,
@@ -693,7 +693,7 @@
               1
             ],
             "continentalness": [
-              0.5,
+              -0.15,
               1
             ],
             "erosion": [
@@ -702,7 +702,7 @@
             ],
             "weirdness": [
               -1,
-              -0.2
+              1
             ],
             "depth": 0,
             "offset": 0
@@ -720,7 +720,7 @@
               1
             ],
             "continentalness": [
-              0.5,
+              -0.15,
               1
             ],
             "erosion": [
@@ -729,14 +729,14 @@
             ],
             "weirdness": [
               -1,
-              -0.2
+              1
             ],
             "depth": 0,
             "offset": 0
           }
         },
         {
-          "biome": "whoniversemod:gallifrey_plains",
+          "biome": "whoniversemod:gallifrey_wastes",
           "parameters": {
             "temperature": [
               0.5,
@@ -747,7 +747,7 @@
               1
             ],
             "continentalness": [
-              0.5,
+              -0.15,
               1
             ],
             "erosion": [
@@ -756,7 +756,88 @@
             ],
             "weirdness": [
               -1,
+              1
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "whoniversemod:gallifrey_snow",
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.5
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.15,
+              1
+            ],
+            "erosion": [
+              -1,
               -0.2
+            ],
+            "weirdness": [
+              -0.2,
+              0.2
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "whoniversemod:gallifrey_plains",
+          "parameters": {
+            "temperature": [
+              -0.5,
+              0.5
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.15,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.2
+            ],
+            "weirdness": [
+              -0.2,
+              0.2
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "whoniversemod:gallifrey_wastes",
+          "parameters": {
+            "temperature": [
+              0.5,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.15,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.2
+            ],
+            "weirdness": [
+              -0.2,
+              0.2
             ],
             "depth": 0,
             "offset": 0
